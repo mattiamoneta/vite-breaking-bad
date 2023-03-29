@@ -1,1 +1,10 @@
 @use 'bootstrap';
+@use './partials/colors' as *;
+
+.card {
+    width: 200px;
+}
+
+.bg-brown {
+    background-color: $color-brown;
+}
