@@ -6,15 +6,13 @@
                     alt="Logo" class="d-inline-block align-text-top me-3">
                 {{ title }}
             </a>
-            <select name="" id="" class="ms-auto">
-                <option value="">Alien</option>
-            </select>
         </div>
     </nav>
 </template>
 
 
 <script>
+
 export default {
     name: 'AppHeader',
     props: {

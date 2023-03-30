@@ -2,5 +2,8 @@ import { reactive } from 'vue';
 
 export const store = reactive({
     cards: [],
-    pending: true
+    archetypes: [],
+    currentArchetype: "",
+    pending: true,
+    range: 15
 });
